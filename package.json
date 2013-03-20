@@ -1,7 +1,7 @@
 {
  "name": "json-micro",
  "description": "Smaller JSON objects by sacrificing float accuracy",
- "version": "0.0.1",
+ "version": "0.0.2",
  "directories": {
   "lib": "./lib"
  },
