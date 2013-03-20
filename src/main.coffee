@@ -2,7 +2,7 @@
 gen_replacer = (num) ->
   mult = Math.pow 10, num
   return (k, v) ->
-    if v.toFixed? and (v isnt parseInt v)
+    if v?.toFixed? and (v isnt parseInt v)
       alt1 = parseFloat v.toPrecision num
       if "#{alt1}".length < "#{v}".length
         alt2 = Math.round v
