@@ -1,0 +1,24 @@
+{
+ "name": "json-micro",
+ "description": "Smaller JSON objects by sacrificing float accuracy",
+ "version": "0.0.1",
+ "directories": {
+  "lib": "./lib"
+ },
+ "main": "lib/main.js",
+ "author": "Chris Coyne <ccoyne77@gmail.com>",
+ "devDependencies": {
+  "coffee-script" : "*"
+ },
+ "repository": {
+  "type": "git",
+  "url": "http://github.com/malgorithms/json-micro"
+ },
+ "licenses": [
+  {
+   "type": "MIT",
+   "url": "http://github.com/malgorithms/json-micro/raw/master/LICENSE"
+  }
+ ],
+ "keywords": ["json", "floats", "numbers", "msgpack"]
+}
